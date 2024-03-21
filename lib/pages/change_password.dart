@@ -172,7 +172,7 @@ class _ChangePasswordState extends State<ChangePassword> {
                 CustomButtonKm(
                   text: 'Confirm Password',
                   onTap: () {
-                    Navigator.pushNamed(context, 'LoginPag');
+                    Navigator.pushNamed(context, 'PasswordConfirmedPage');
                   },
                 )
               ],
